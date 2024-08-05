@@ -1,0 +1,18 @@
+Issue: The content was too close to the edges of the browser window.
+Added Padding to the Body:
+Solution: Added padding to the body to create some space around the content.
+
+Issue: The container content was too high up in the viewport.
+
+Adjusted Container Margin:
+Solution: Added a top margin to .container-m to push the content down.
+
+Text Center Alignment:
+
+Issue: Ensuring the text is centered within the container for better readability.
+Solution: Set the text-align property to center for the container.
+
+Added Margins to Text Elements:
+
+Issue: The heading and paragraph were too close to the image.
+Solution: Added top margins to the heading and paragraph to create space.
