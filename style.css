@@ -1,16 +1,7 @@
         * {
             box-sizing: border-box;
             margin: 0;
-            padding: 20;
-        }
-        
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
+            padding: 0;
         }
         
         body {
@@ -20,7 +11,6 @@
             justify-content: center;
             align-items: flex-start;
             height: 100vh;
-            margin: 0;
             font-family: 'Outfit', sans-serif;
             padding: 20px;
         }
@@ -34,9 +24,7 @@
             margin-top: 100px;
             /* Added margin to push the content down */
             width: 100%;
-            box-sizing: border-box;
             text-align: center;
-            padding: 20px;
         }
         
         .container-m img {
@@ -79,13 +67,11 @@
         }
         
         .head-p {
-            font-family: youngSerif-regular;
             text-align: left;
         }
         
         .bottom-border {
             border-bottom: 1px solid gray;
-            padding-bottom: 0px;
             margin-bottom: 10px;
             margin-top: 10px;
         }
@@ -94,6 +80,7 @@
         ol {
             font-family: 'Young Serif', serif;
             margin-top: 10px;
+            font-family: 'Young Serif' serif;
         }
         
         .nutrition {
@@ -103,15 +90,6 @@
             /* Adjust padding as needed */
             border-bottom: 1px solid #ccc;
             /* Optional: Add a bottom border */
-        }
-        
-        .with-line {
-            border-bottom: 1px solid #000;
-            /* Line under the specific list item */
-            padding-bottom: 5px;
-            /* Space between text and line */
-            margin-bottom: 10px;
-            /* Space between line and next content */
         }
         
         .nutrition {
@@ -136,4 +114,23 @@
         .container-sub {
             text-align: left;
             margin-top: 20px;
+        }
+        
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        @media (min-width: 1440px) {
+            body {
+                height: 100vh;
+            }
+            .card {
+                max-width: 350px;
+                margin: auto;
+            }
         }
